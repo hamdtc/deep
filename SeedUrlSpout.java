@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class BaseRichBolt extends DataExtractorBolt {
+public class DataExtractorBolt extends BaseRichBolt {
     private WebDriver driver;
     private OutputCollector collector;
 
@@ -36,6 +36,5 @@ public class BaseRichBolt extends DataExtractorBolt {
         }
     }
 }
-
 
 
