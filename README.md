@@ -3,7 +3,6 @@ SnoopDev
 Snoop Deep Web to crawl a website and get its html and screenshot using stormcrawler running in local mode in Apache Storm.
 
 Here are the brief steps which I followed for executing the task in Java:
-
 Step 1: Setting up the Environment
 
 Installed and configured the Apache Storm and Selenium in my system Created a new Java project and added new dependencies for Storm and Selenium
